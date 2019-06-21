@@ -1,4 +1,4 @@
-# appalachian.hg19v1 container for early NGS pipeline applications
+# ferncanyon.hg19v1 container for early NGS pipeline applications
 How to run pipeline:
 
  singularity run --app [appname] --bind [directory_info] container_name.simg

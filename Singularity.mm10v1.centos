@@ -90,7 +90,8 @@ Singularity container containing following apps for ChIP-seq and CUT&RUN process
 
 	rm -rf /var/lib/apt/lists/*
 
- 	yum -y install R-3.5.1-1.el7.x86_64
+	yum -y install R
+ 	yum -y install R-devel
 	mkdir -p /usr/local/lib64/R/bin
 	ln -s /usr/bin/R /usr/local/lib64/R/bin/R
 
